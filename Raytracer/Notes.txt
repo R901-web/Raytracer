@@ -1,0 +1,25 @@
+﻿BVH Build Time
+
+1. Model = King, Transform = 0 (73856 tris, 16 split/axis)
+Naive  : 12.830s (86125 BVHs, max 2 tris)
+Binned : 2.903s (86125 BVHs, max 2 tris)
+
+2. Model = Queen, Transform = 0 (60464 tris, 16 split/axis)
+Naive  : 10.325s (70491 BVHs, max 2 tris)
+Binned : 2.542s (70491 BVHs, max 2 tris)
+
+3. Model = All Chess, Transform = 0 (319336 tris, 16 split/axis)
+Naive  : 54.511s (372196 BVHs, max 2 tris)
+Binned : 12.402s (372196 BVHs, max 2 tris)
+
+Render Time
+1. Model = Deep Blue vs Kasparov (88 meshes, 1036376 tris, 2K, 10 bpr, 5 rpp) 
+Separate Mesh : 9.480s (estimated)
+Global BVH    : 3.493s
+
+BVH Build + Render Time
+1. Model = Deep Blue vs Kasparov (88 meshes, 1036376 tris, HD, 10 bpr, 200 rpp)
+8 Bin, 2 Tri  : 33.506s (build), 48.063s (render), 81.569s (total)
+16 Bin, 2 Tri : 47.503s (build), 38.637s (render), 86.140s (total)
+8 Bin, 4 Tri  : 29.988s (build), 38.138s (render), 68.126s (total)
+16 Bin, 4 Tri : 40.747s (build), 36.342s (render), 77.089s (total)
