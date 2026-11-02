@@ -46,12 +46,12 @@ public class Program
         */
 
         /*
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", white, new float3(6f, 3.214f, -2.5f), float3.Zero, 0.045f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\rook.stl", white, new float3(6f, 1.929f, -2.5f), float3.Zero, 0.045f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\knight.stl", white, new float3(6f, 0.643f, -2.5f), float3.Zero, 0.045f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\bishop.stl", white, new float3(6f, -0.643f, -2.5f), float3.Zero, 0.045f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\queen.stl", white, new float3(6f, -1.929f, -2.5f), float3.Zero, 0.045f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\king.stl", white, new float3(6f, -3.214f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", white, new float3(6f, 3.214f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\rook.stl", white, new float3(6f, 1.929f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\knight.stl", white, new float3(6f, 0.643f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\bishop.stl", white, new float3(6f, -0.643f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\queen.stl", white, new float3(6f, -1.929f, -2.5f), float3.Zero, 0.045f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\king.stl", white, new float3(6f, -3.214f, -2.5f), float3.Zero, 0.045f);
         */
 
 #warning spotlight with 1 strong light + planes around?
@@ -69,40 +69,40 @@ public class Program
         loader.loadBox(8.4f, 0.2f, 0.2f, darkSquare, new float3(0, -4.1f, 0), float3.Zero);
         loader.loadBox(8.4f, 0.2f, 0.2f, darkSquare, new float3(0, 4.1f, 0f), float3.Zero);
 
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\rook.stl", blackPiece, new float3(3.5f, 3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\king.stl", blackPiece, new float3(3.5f, 1.5f, 0f), new float3(0, 0, 90f), 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\rook.stl", blackPiece, new float3(3.5f, -3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(2.5f, 3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\knight.stl", blackPiece, new float3(2.5f, 0.5f, 0f), new float3(0, 0, -90), 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\bishop.stl", blackPiece, new float3(2.5f, -0.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(2.5f, -2.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\bishop.stl", blackPiece, new float3(1.5f, 1.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(1.5f, -3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(0.5f, 2.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\knight.stl", blackPiece, new float3(0.5f, 0.5f, 0f), new float3(0, 0, -90), 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(0.5f, -1.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\rook.stl", blackPiece, new float3(3.5f, 3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\king.stl", blackPiece, new float3(3.5f, 1.5f, 0f), new float3(0, 0, 90f), 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\rook.stl", blackPiece, new float3(3.5f, -3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(2.5f, 3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\knight.stl", blackPiece, new float3(2.5f, 0.5f, 0f), new float3(0, 0, -90), 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\bishop.stl", blackPiece, new float3(2.5f, -0.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(2.5f, -2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\bishop.stl", blackPiece, new float3(1.5f, 1.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(1.5f, -3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(0.5f, 2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\knight.stl", blackPiece, new float3(0.5f, 0.5f, 0f), new float3(0, 0, -90), 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", blackPiece, new float3(0.5f, -1.5f, 0f), float3.Zero, 0.03f);
 
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-0.5f, 1.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-0.5f, 0.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\queen.stl", whitePiece, new float3(-1.5f, 0.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\knight.stl", whitePiece, new float3(-1.5f, -1.5f, 0f), new float3(0, 0, 90), 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\bishop.stl", whitePiece, new float3(-1.5f, -2.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, 2.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -1.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -2.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\rook.stl", whitePiece, new float3(-3.5f, 3.5f, 0f), float3.Zero, 0.03f);
-        loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\king.stl", whitePiece, new float3(-3.5f, -2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-0.5f, 1.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-0.5f, 0.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\queen.stl", whitePiece, new float3(-1.5f, 0.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\knight.stl", whitePiece, new float3(-1.5f, -1.5f, 0f), new float3(0, 0, 90), 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\bishop.stl", whitePiece, new float3(-1.5f, -2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, 2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -1.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -2.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\pawn.stl", whitePiece, new float3(-2.5f, -3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\rook.stl", whitePiece, new float3(-3.5f, 3.5f, 0f), float3.Zero, 0.03f);
+        loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\king.stl", whitePiece, new float3(-3.5f, -2.5f, 0f), float3.Zero, 0.03f);
 
         loader.loadSphere(75, 10, light, new float3(0, 0, 125f));
 
         //loader.loadBox(2, 2, 3, white, new float3(5.25f, -2f, -1f), new float3(0, 0, -30f));
         //loader.loadBox(2, 5, 2, white, new float3(6f, 1f, -1.5f), new float3(0, 0, 22.5f));
 
-        //loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\dogSit.stl", mirror, new float3(4.75f, 1.5f, -2.5f), new float3(0, 0, -45f), 0.05f);
-        //loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\dog.stl", mirror, new float3(4.75f, -1.5f, -2.5f), new float3(0, 0, -135f), 0.05f);
+        //loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\dogSit.stl", mirror, new float3(4.75f, 1.5f, -2.5f), new float3(0, 0, -45f), 0.05f);
+        //loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\dog.stl", mirror, new float3(4.75f, -1.5f, -2.5f), new float3(0, 0, -135f), 0.05f);
 
-        //loader.loadSTL("C:\\Users\\TANE-REN\\Desktop\\C#\\Raytracer\\Raytracer\\Models\\stanford.stl", mirror, new float3(6, 0, -2.5f), new float3(0, 0, -90), 0.05f);
+        //loader.loadSTL("..\\..\\..\\..\\Raytracer\\Models\\stanford.stl", mirror, new float3(6, 0, -2.5f), new float3(0, 0, -90), 0.05f);
 
 
         Console.WriteLine($"Meshes: {loader.meshes.Count}");
